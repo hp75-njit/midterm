@@ -1,0 +1,33 @@
+2024-11-01 15:53:32,320 - calculator.logger_config - INFO - Starting Calculator REPL...
+2024-11-01 15:53:32,321 - calculator.logger_config - INFO - HistoryManager initialized with history file: calculator/history.csv
+2024-11-01 15:53:42,395 - calculator.logger_config - INFO - Executing AddCommand with args: ['4', '5']
+2024-11-01 15:53:42,396 - calculator.logger_config - DEBUG - AddCommand result: 9.000000
+2024-11-01 15:53:42,404 - calculator.logger_config - DEBUG - Added in history:   operation  inputs  result                  timestamp
+0       add  [4, 5]     9.0 2024-11-01 15:53:42.398019
+2024-11-01 15:53:45,017 - calculator.logger_config - INFO - Executing AddCommand with args: ['3', '5']
+2024-11-01 15:53:45,019 - calculator.logger_config - DEBUG - AddCommand result: 8.000000
+2024-11-01 15:53:45,023 - calculator.logger_config - DEBUG - Added in history:   operation  inputs  result                  timestamp
+0       add  [3, 5]     8.0 2024-11-01 15:53:45.019350
+2024-11-01 15:53:53,705 - calculator.logger_config - INFO - Executing SubtractCommand with args: ['402', '201']
+2024-11-01 15:53:53,706 - calculator.logger_config - DEBUG - SubtractCommand result: 201.000000
+2024-11-01 15:53:53,709 - calculator.logger_config - DEBUG - Added in history:   operation      inputs  result                  timestamp
+0  subtract  [402, 201]   201.0 2024-11-01 15:53:53.706375
+2024-11-01 15:54:02,126 - calculator.logger_config - INFO - Saving history to file: calculator/history.csv
+2024-11-01 15:54:02,130 - calculator.logger_config - INFO - History saved successfully.
+2024-11-01 15:55:04,660 - calculator.logger_config - INFO - Starting Calculator REPL...
+2024-11-01 15:55:04,663 - calculator.logger_config - INFO - HistoryManager initialized with history file: calculator/history.csv
+2024-11-01 15:55:06,904 - calculator.logger_config - INFO - Executing AddCommand with args: ['5', '4']
+2024-11-01 15:55:06,906 - calculator.logger_config - DEBUG - AddCommand result: 9.000000
+2024-11-01 15:55:06,916 - calculator.logger_config - DEBUG - Added in history:   operation  inputs  result                  timestamp
+0       add  [5, 4]     9.0 2024-11-01 15:55:06.907820
+2024-11-01 15:55:09,412 - calculator.logger_config - INFO - Executing AddCommand with args: ['5']
+2024-11-01 15:55:09,413 - calculator.logger_config - DEBUG - AddCommand result: 5.000000
+2024-11-01 15:55:09,417 - calculator.logger_config - DEBUG - Added in history:   operation inputs  result                  timestamp
+0       add    [5]     5.0 2024-11-01 15:55:09.413627
+2024-11-01 15:55:14,533 - calculator.logger_config - INFO - Executing AddCommand with args: ['50', '33']
+2024-11-01 15:55:14,534 - calculator.logger_config - DEBUG - AddCommand result: 83.000000
+2024-11-01 15:55:14,539 - calculator.logger_config - DEBUG - Added in history:   operation    inputs  result                  timestamp
+0       add  [50, 33]    83.0 2024-11-01 15:55:14.534638
+2024-11-01 15:55:18,347 - calculator.logger_config - INFO - Saving history to file: calculator/history.csv
+2024-11-01 15:55:18,352 - calculator.logger_config - INFO - History saved successfully.
+2024-11-01 15:55:27,308 - calculator.logger_config - INFO - Exiting...
